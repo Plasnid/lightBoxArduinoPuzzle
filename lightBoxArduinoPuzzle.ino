@@ -17,6 +17,7 @@ void setup()
 {
   Serial.begin(9600);  //Begin serial communcation
 
+  //led pins here
   pinMode( ledPin1, OUTPUT );
   pinMode( lightPin1, INPUT );
   pinMode( ledPin2, OUTPUT );
@@ -25,6 +26,7 @@ void setup()
   pinMode( lightPin3, INPUT );
   pinMode( ledPin4, OUTPUT );
   pinMode( lightPin4, INPUT );
+  //mag pin here
   pinMode( MagRelay, OUTPUT );
   digitalWrite( MagRelay, LOW );  //set relay to on
 }
